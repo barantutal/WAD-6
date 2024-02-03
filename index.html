@@ -26,7 +26,7 @@
       </ul>
     </header>
 
-    <form id="order-form" class="needs-validation" novalidate>
+    <form id="order-form" class="needs-validation" novalidate onsubmit="event.preventDefault();">
 
       <section id="shop">
 
@@ -237,7 +237,7 @@
             </div>
           </div>
 
-          <button class="w-100 btn btn-primary btn-lg mt-4 mb-5" onclick="submitForm()" type="button">Submit Order</button>
+          <button class="w-100 btn btn-primary btn-lg mt-4 mb-5" onclick="submitForm()">Submit Order</button>
         </div>
       </section>
       <!-- End Address Info -->
